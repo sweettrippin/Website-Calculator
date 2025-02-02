@@ -1,2 +1,2 @@
 # Website-Calculator
-web
+Web
