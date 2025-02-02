@@ -1,4 +1,3 @@
-/* style.css */
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f8f9fa;
@@ -11,11 +10,14 @@ body {
 
 .container {
     background: white;
-    padding: 20px;
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 400px; /* Batasan lebar agar tetap proporsional */
+    max-width: 350px; /* Lebih proporsional */
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 h1 {
@@ -50,9 +52,22 @@ h1 {
     color: #16a34a;
 }
 
+.input-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .input-group {
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    width: 100%;
     align-items: center;
+    margin-top: 5px;
+}
+
+input[type="number"], input[type="range"], input[type="text"] {
+    width: 100%;
+    max-width: 250px;
     margin-top: 5px;
 }
